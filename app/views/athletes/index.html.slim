@@ -1,0 +1,6 @@
+ul.athletes
+  - @athletes.each do |athlete|
+    li 
+      = link_to athlete.name, "#", class: "athlete", data: { modal: "more-info", model_id: athlete.id } 
+    
+  
