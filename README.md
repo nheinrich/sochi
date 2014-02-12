@@ -24,6 +24,9 @@
     Note: Use whatever lib you'd like for the modal.  Just require everything correctly and make sure to not go overboard - simpler is better!
 
 
+### Resources
 
+1. https://github.com/wycats/handlebars.js
+2. http://thoraxjs.org/api.html#thorax.view
  
 
