@@ -3,10 +3,10 @@
 ## Setup
 
 1. Fork the repo
-2. Make sure you have the rb version in the Gemfile and have installed bundler ```gem install bundler```
+2. Make sure you have the rb version in the Gemfile and have bundler installed ```gem install bundler```
 3. ```bundle install```
 4. Run the migration and seed the db: ```bundle exec rake db:migrate db:seed``` 
-5. Start the application ```rails server``` and open up your browser to ```localhost:3000``` which should display an unstyled list of the Sochi Athletes in the seed file 
+5. Start the application ```rails server``` and open up your browser to ```localhost:3000``` which should display an unstyled list of the Sochi Athletes in the seed file.  Clicking each Athlete should display the corresponding Athelete object in your browser's console.
 
 ## Exercise
 
@@ -14,7 +14,7 @@
 
 1. Register a new Handlebars helper function named ```prettySport``` that takes a string argument and substitutes any "-" with spaces and capitalizes the first letter of each word.  Make sure this is defined in the ```'sochi/helpers/template_helpers'``` file.
     
-1. Change the click event in ```Sochi.Views.Application``` to launch a modal view, e.g., ```Sochi.Views.AthleteModal``` ( or whatever you want to name it ) that will display all of that Athlete model attributes ( except for the id ).  Also make sure to do the following:
+1. Change the click event in ```Sochi.Views.Application``` to launch a modal view, e.g., ```Sochi.Views.AthleteModal``` ( or whatever you want to name it ) that will display all of the Athlete model attributes ( except for the id ).  Also make sure to do the following:
     
     * The parameterized sport attribute should be converted with the Handlebars ```prettySport``` helper.
     * The preloadedJSON object should be used to display the full country name for the Athlete's country attribute.  
