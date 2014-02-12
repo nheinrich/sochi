@@ -23,6 +23,8 @@
   
     Note: Use whatever lib you'd like for the modal.  Just require everything correctly and make sure to not go overboard - simpler is better!
 
+4. Send a PR
+
 
 ### Resources
 
