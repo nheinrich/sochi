@@ -5,7 +5,6 @@
     
     moreInfo: (e) ->
       e.preventDefault()
-      $link = $(e.currentTarget)
   
       model = if id = $(e.currentTarget).data("model-id")
         new Sochi.Models.Athlete(id: id)
