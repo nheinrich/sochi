@@ -1,10 +1,10 @@
-
 #== require jquery
 #== require jquery_ujs
 #== require underscore
 #== require backbone
-#== require handlebars.runtime
+#== require handlebars
 #== require thorax
+#
 # ------------------------
 # Sochi
 # ------------------------
@@ -34,8 +34,8 @@ $ ->
     root: '/',
     silent: true
   })
-  
+
   # preloaded stuff should go here
-  
+
   Thorax.setRootObject(new Sochi.Views.Application(el: document.getElementById('application')))
-  
+

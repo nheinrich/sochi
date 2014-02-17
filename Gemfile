@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'annotate'
 gem 'simple_form', '~> 3.0.0'
 gem 'thorax-rails' # includes backbone, underscore, and handlebars
+gem 'handlebars_assets'
 
 group :doc do
   gem 'sdoc', require: false
